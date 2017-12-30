@@ -1,0 +1,8 @@
+# mcommit.md is where changes are stored for multi-line commit messages
+mcommit.md
+
+# not sure if .git gets uploaded to github?  This should elimate all hidden folders
+.git/
+
+# other files to exclude below
+*.pyc
