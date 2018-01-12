@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block head_title %}Welcome {{ block.super }}{% endblock head_title %}
+{% block extrahead %}
+    <link rel="shortcut icon" href="{% static 'favicon.ico'  %}"/>
+{% endblock extrahead %}
+
+{% block content %}
+
+{{ block.super }}
+<h3> Home Page </h3>
+
+<div class="home-content">
+<p>
+  Hello World <br/>
+  Future Home of the Home Page
+
+</P>
+</div>
+
+{% endblock content %}
