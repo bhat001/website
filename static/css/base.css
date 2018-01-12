@@ -1,7 +1,26 @@
 body {
     background-color: #fafcfc;
-}
-content {
-    background-color: #fafcfc;
     background-color: yellow;
+}
+
+.page-header {
+    background-color: blue;
+}
+.page-header h1 a {
+   color: white;
+   text-decoration: none;
+}
+
+.page-header h1 a:visited {
+   color: white;
+   text-decoration: none;
+}
+
+.content {
+    background-color: #fafcfc;
+    background-color: tan;
+    color: red;
+}
+.home-content {
+    color: #000000;
 }
